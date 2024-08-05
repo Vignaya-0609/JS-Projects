@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+        <h2>Calculator</h2>
+        <div class="display-value">
+            <h5 id="value"></h5>
+            <button id="clr" value="clr" onclick="clr()">C</button>
+        </div>
+        <div class="btns">
+            <table>
+                <tr>
+                    <td><button value="/" onclick="display('/')">/</button></td>
+                    <td><button value="7" onclick="display('7')">7</button></td>
+                    <td><button value="8" onclick="display('8')">8</button></td>
+                    <td><button value="9" onclick="display('9')">9</button></td>
+                </tr>
+                <tr>
+                    <td><button value="*" onclick="display('*')">*</button></td>
+                    <td><button value="4" onclick="display('4')">4</button></td>
+                    <td><button value="5" onclick="display('5')">5</button></td>
+                    <td><button value="6" onclick="display('6')">6</button></td>
+                </tr>
+                <tr>
+                    <td><button value="-" onclick="display('-')">-</button></td>
+                    <td><button value="1" onclick="display('1')">1</button></td>
+                    <td><button value="2" onclick="display('2')">2</button></td>
+                    <td><button value="3" onclick="display('3')">3</button></td>
+                </tr>
+                <tr>
+                    <td><button value="+" onclick="display('+')">+</button></td>
+                    <td><button value="." onclick="display('.')">.</button></td>
+                    <td><button value="0" onclick="display('0')">0</button></td>
+                    <td><button value="eq" onclick="equate()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- script -->
+     <script src="script.js"></script>
+</body>
+</html>
