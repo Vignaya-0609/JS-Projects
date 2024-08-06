@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo">
+        <div class="input-field">
+            <form>
+                <input type="text" placeholder="Enter todo" id="todo-text" required>
+                <button type="submit" id="add-todo">Add</button>
+            </form>
+        </div>
+        <div class="todo-list">
+            <ul id="list">
+                <li>
+                    <p>Write</p>
+                    <p onclick="deleteTodo('1')" id="1">x</p>
+                </li>
+                <li>
+                    <p>Read</p>
+                    <p onclick="deleteTodo('2')" id="2">x</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- script -->
+     <script src="script.js"></script>
+</body>
+</html>

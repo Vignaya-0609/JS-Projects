@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to left, rgb(13, 107, 49),rgb(76, 173, 125),rgb(142, 253, 175));
+    display: grid;
+    place-items: center;
+}
+.mini-calendar{
+    width: 350px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.tdy-date{
+    flex-basis: 50%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#tdyDate{
+    position: absolute;
+    font-size: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#day{
+    position: absolute;
+    font-size: 1.1rem;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.yr{
+    flex-basis: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(219, 129, 255);
+    text-align: center;
+    position: relative;
+}
+#month{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+}
+#yr{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+}
