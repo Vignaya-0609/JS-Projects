@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(198, 255, 187);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 450px;
+    height: auto;
+    background-color: rgba(48, 48, 48, 0.911);
+    padding: 10px;
+    border-radius: 8px;
+    color:white ;
+}
+.container h2{
+    text-align: center;
+    padding: 8px;
+}
+table{
+    width: 100%;
+}
+table tr td{
+    padding: 8px;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    border:none;
+    outline:none;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+button{
+    width: 100%;
+    border:none;
+    outline:none;
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+}
