@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 32, 139);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.set-range , .res{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.set-range input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 80%;
+    height: 8px;
+    background: rgb(247, 32, 139);
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9;
+    transition: background .3s ease-in-out;
+}
+
+.set-range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background .3s ease-in-out; 
+}
+
+.set-range input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background .3s ease-in-out;
+}
+
+.set-range input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background .3s ease-in-out; 
+}
+#range-val{
+    width: 30px;
+    text-align: center;
+    background-color: rgb(247, 32, 139);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.res h3{
+    width:80%;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+.res i{
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
