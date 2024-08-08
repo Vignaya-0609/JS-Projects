@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <div class="input-field">
+            <div class="card">
+                <label for="c">Celsius</label>
+                <input type="text" id="c" oninput="calculateFahrenheit()">
+            </div>
+            <div class="icon">
+                <i class="fa fa-arrows-h" aria-hidden="true"></i>
+            </div>
+            <div class="card">
+                <label for="f">Fahrenheit</label>
+                <input type="text" id="f" oninput="calculateCelsius()">
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+     <script src="script.js"></script>
+</body>
+</html>
