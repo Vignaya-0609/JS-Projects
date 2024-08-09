@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;font-weight: bold;margin-bottom: 20px;">Money Converter</h2>
+        <div class="card">
+            <h2>Enter Amount</h2>
+            <input type="text" id="val" placeholder="Enter amount">
+        </div>
+        <div class="card">
+            <h2>From</h2>
+            <select id="from">
+                <option hidden value="">From</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+            </select>
+        </div>
+        <div class="card">
+            <h2>To</h2>
+            <select id="to">
+                <option hidden value="">To</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+            </select>
+        </div>
+        <div class="card">
+            <button id="calculateBtn">Calculate</button>
+        </div>
+        <div class="card">
+            <h2 id="res"></h2>
+        </div>
+    </div>
+    <!-- script -->
+     <script src="script.js"></script>
+</body>
+</html>
