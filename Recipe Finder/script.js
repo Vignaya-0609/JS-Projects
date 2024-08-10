@@ -1,7 +1,7 @@
 document.getElementById('search').addEventListener('click', function() {
     // Get the input value
     const query = document.getElementById('recipe').value.trim();
-    const apiKey = '1dcA2MK/Jk2cmPIE592/Vw==nwDRcWbt5whRFb9S';
+    const apiKey = 'YOUR_API_KEY';
     // Check if the input is not empty
     if (query === '') {
         alert('Please enter a recipe name.');

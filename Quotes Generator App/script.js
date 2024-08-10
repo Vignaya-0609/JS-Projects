@@ -5,7 +5,7 @@ const displayContent = document.querySelector(".quote");
 // Default displayContent is none
 displayContent.style.display = "none";
 
-const apiKey = '1dcA2MK/Jk2cmPIE592/Vw==nwDRcWbt5whRFb9S';
+const apiKey = 'YOUR_API_KEY';
 const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=';
 
 function fetchQuote(category) {

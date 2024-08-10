@@ -1,6 +1,6 @@
 document.getElementById('check').addEventListener('click', function() {
     let word = document.getElementById('val').value;
-    let apiKey = '1dcA2MK/Jk2cmPIE592/Vw==nwDRcWbt5whRFb9S';
+    let apiKey = 'YOUR_API_KEY';
     let apiUrl = 'https://api.api-ninjas.com/v1/dictionary?word=' + word;
 
     if (word === '') {
