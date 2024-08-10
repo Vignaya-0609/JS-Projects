@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Useful statistics about every country in the world</h2>
+        <div class="input-field">
+            <input type="text" placeholder="Enter Country Name" id="val">
+            <button id="check">Search</button>
+        </div>
+        <div class="res" id="res">
+            <h3 id="name"></h3>
+            <p id="region"></p>
+            <p id="currency"></p>
+            <p id="capital"></p>
+            <p id="population"></p>
+        </div>
+        <div class="error" id="error" style="display: none;">
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+    <!-- script -->
+     <script src="script.js"></script>
+</body>
+</html>
